@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="title-container">
+            <div class="title">
+                <h3 class="main-title">Weather App</h3>
+            </div>
+            <div class="Weather-Input">
+                <input type="text" placeholder="Enter City Name" id="input-value"/>
+                <button type="button" id="button" class="button">GO!</button>
+            </div>
+        </div>
+        <div class="weather-container" id="weather-container">
+            <h2 class="city-title" id="city-title">Weather Title</h2>
+            <div class="temp-desc-icon">
+                <div class="temperature" id="temperature">temp</div>
+                <div class="description" id="description">desc</div>
+                <div class="icon" id="icon" style="width: 45px; height: 45px;"></div>
+            </div>
+            <hr>
+            <!-- <div class="section-one section">
+                <div class="longtitude" id="longtitude">Longtitude:</div>
+                <div class="latutude" id="latitude">Latutide:</div>
+            </div> -->
+            <div class="section-two section">
+                <div class="pressure" id="pressure">Pressure:</div>
+                <div class="humidity" id="humidity">Humidity:</div>
+            </div>
+            <div class="section-three section">
+                <div class="min-temp" id="min-temp">Temp-min:</div>
+                <div class="max-temp" id="max-temp">Temp-max:</div>
+            </div>
+            <div class="section-four section">
+                <div class="wind-speed" id="wind-speed">Wind-speed:</div>
+                <div class="gust" id="gust">Gust:</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/weather.js"></script>
+
+</body>
+</html>
